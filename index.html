@@ -2,159 +2,119 @@
 <html lang="en">
 
 <head>
-  <title>Monthly Website: October</title>
-  <!-- Required meta tags -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
-  <!-- Bootstrap CSS v5.2.1 -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://use.typekit.net/jeh5fta.css">
-
+    <title>Thomas Alva Edison</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Thomas Alva Edison</a>
+    <!-- Header Section -->
+    <header class="bg-dark text-white py-3">
+        <nav class="container d-flex justify-content-between align-items-center">
+            <a class="navbar-brand text-white" href="#">Thomas Alva Edison</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-                
-              </a>
-
-              </ul>
-            </li>
-          </ul>
+    <!-- Main Content -->
+    <main class="container my-5">
+        <!-- Introduction -->
+        <div class="text-center mb-5">
+            <h1>Thomas Alva Edison</h1>
+            <p>Born: February 11, 1847 (Milan, Ohio) | Died: October 18, 1931 (West Orange, NJ)</p>
+            <img src="imgs/Edison-1.jpg" class="img-fluid rounded" alt="Thomas Edison">
         </div>
-      </div>
-    </nav>
-  </header>
 
-  <main>
-    <div class="row d-flex justify-content-center bg-light py-5 mb-3">
-      <div class="col-6 text-center">
-        
-        <h1 class="pt-3">Thomas Alva Edison</h1>
-        <p>
-          Born: February 11, 1847 (Milan, Ohio)   |   Died: October 18, 1931 (West Orange, NJ)
-        </p>
-        <img src="imgs/Edison-1.jpg" class="card-img-top" alt="..." style="width: 30%;" >
-      </div>
-    </div>
-    
+        <!-- Cards -->
+        <div class="row g-4">
+            <!-- Achievements -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 d-flex flex-column">
+                    <img src="imgs/Edison-3.webp" class="card-img-top" alt="Achievements">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">Achievements</h5>
+                        <p class="card-text">Invention of the Phonograph (1877): This was the first device to both
+                            record and reproduce sound, revolutionizing the music industry.
+                            <br> Electric Light Bulb (1879): Although he didn’t invent the light bulb, Edison improved
+                            its design and developed a practical, long-lasting version, leading to widespread electric
+                            lighting.
+                        </p>
+                        <div class="text-center mt-auto">
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-    <!--First Row of Cards-->
-    <div class="row d-flex justify-content-center align-items-center my-3">
+            <!-- Contributions to Society -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 d-flex flex-column">
+                    <img src="imgs/Edison-2.jpg" class="card-img-top" alt="Contributions to Society">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">Contributions to Society</h5>
+                        <p class="card-text">Industrial Research Laboratory: He established one of the first R&D labs in
+                            Menlo Park, which became a model for future industrial research.
+                            <br> Promotion of Electric Power: Through his work with electric lighting and power
+                            distribution, he helped usher in the electrical age.
+                        </p>
+                        <div class="text-center mt-auto">
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-      <!--Card #1-->
-      <div class="col-lg-2 col-md-6 col-sm-12">
-        <div class="card">
-          <img src="imgs/Edison-3.webp" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Achievements:</h5>
-            <p class="card-text">Invention of the Phonograph (1877): This was the first device to both record and reproduce sound, revolutionizing the music industry.
-              <br>                      
-                                Electric Light Bulb (1879): Although he didn’t invent the light bulb, Edison improved its design and developed a practical, long-lasting version, leading to widespread electric lighting.</p>
-            <a href="#">
-              <div class="text-center">
-                <button type="button" class="btn btn-primary">Centered button</button>
-              </div>
-            </a>
-          </div>
+            <!-- Impact on History -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 d-flex flex-column">
+                    <img src="imgs/Edison-4.jpg" class="card-img-top" alt="Impact on History">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">Impact on History</h5>
+                        <p class="card-text">Business Practices: Edison’s approach to invention and commercialization
+                            influenced entrepreneurship and the patent system. He held over 1,000 patents and was a
+                            pioneer in creating business models around intellectual property.
+                            <br> Laboratory Innovation: Edison's establishment of the first industrial research
+                            laboratory at Menlo Park set a precedent for modern R&D practices. His collaborative
+                            approach
+                            to invention inspired future innovations across various fields.
+                        </p>
+                        <div class="text-center mt-auto">
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-
-      <!--Card #2-->
-      <div class="col-lg-2 col-md-6 col-sm-12">
-        <div class="card">
-          <img src="imgs/Edison-2.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Contributions to Society:</h5>
-            <p class="card-text">Industrial Research Laboratory: He established one of the first R&D labs in Menlo Park, which became a model for future industrial research.
-
-              Promotion of Electric Power: Through his work with electric lighting and power distribution, he helped usher in the electrical age.
-              </p>
-            <a href="#">
-              <div class="text-center">
-                <button type="button" class="btn btn-primary">Centered button</button>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      
-
-      <!--Card #3-->
-      <div class="col-lg-2 col-md-6 col-sm-12">
-        <div class="card">
-          <img src="imgs/Edison-4.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Impact on History: </h5>
-            <p class="card-text">Business Practices: Edison’s approach to invention and commercialization influenced entrepreneurship and the patent system. He held over 1,000 patents and was a pioneer in creating business models around intellectual property.
-
-
-              Laboratory Innovation (Edison's establishment of the first industrial research laboratory at Menlo Park set a precedent for modern R&D practices. His collaborative approach to invention inspired future innovations across various fields.)</p>
-            <a href="#">
-              <div class="text-center">
-                <button type="button" class="btn btn-primary">Centered button</button>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-
- 
- 
- 
- 
     </main>
 
-  <section class="">
-    <!-- Footer -->
-    <footer class="text-center text-white" style="background-color: grey;">
-      <!-- Grid container -->
-      <div class="container p-4 pb-0">
-        <!-- Section: CTA -->
-        <section class="">
-          <p class="d-flex justify-content-center align-items-center">
-          </p>
-        </section>
-        <!-- Section: CTA -->
-      </div>
-      <!-- Grid container -->
-  
-         <!-- Footer -->
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        Brandon's Thomas Alva Edison Website (October): © Copyright 2024
-      </div>
-
+    <!-- Footer Section -->
+    <footer class="text-center text-white bg-dark py-4">
+        <div class="container">
+            <p class="mb-0">Brandon's Thomas Alva Edison Website (October): © Copyright 2024</p>
+        </div>
     </footer>
- 
 
-  </section>
-
-  <!-- Bootstrap JavaScript Libraries -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-    crossorigin="anonymous"></script>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-    crossorigin="anonymous"></script>
+    <!-- Scripts Section -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>
